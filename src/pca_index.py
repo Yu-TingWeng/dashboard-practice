@@ -126,7 +126,7 @@ def pc1_line_plot(pc1):
     # fig = px.line(pc1, title="Principal Component 1")
     # fig.show()
 
-    trace = go.Scatter(x=pc1.index, y=pc1, name="PC1")
+    trace = go.Scatter(x=pc1.index, y=pc1, name="PC1", line=dict(color='green'))
 
     data = [trace]
     layout = dict(
