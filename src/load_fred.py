@@ -1,5 +1,8 @@
 import pandas as pd
 import pandas_datareader
+import sys
+sys.path.insert(1, './src/')
+
 import config
 from pathlib import Path
 
